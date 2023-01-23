@@ -1,0 +1,4 @@
+timer_handlers.c:12:6:timer_amar_Handler	8	static
+timer_handlers.c:16:6:timer_boton_Handler	8	static
+timer_handlers.c:19:6:timer_rojo_Handler	8	static
+timer_handlers.c:22:6:timer_verde_Handler	8	static

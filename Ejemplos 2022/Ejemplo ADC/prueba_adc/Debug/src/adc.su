@@ -1,0 +1,10 @@
+adc.c:35:13:__adc_set_clkdiv	16	static
+adc.c:40:13:__adc_seqa_set_channels	16	static
+adc.c:45:13:__adc_seqa_set_mode_end_of_conversion	8	static
+adc.c:49:13:__adc_seqa_set_mode_end_of_sequence	8	static
+adc.c:53:13:__adc_seqa_enable_sequence	8	static
+adc.c:57:13:__adc_inten_enable_seqa	8	static
+adc.c:61:6:adc_init	8	static
+adc.c:103:6:adc_start_conversion	8	static
+adc.c:107:10:adc_finished	24	static
+adc.c:126:6:ADC_SEQA_IRQHandler	8	static

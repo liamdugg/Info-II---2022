@@ -1,0 +1,9 @@
+AP_FuncionesMDE.c:31:6:m_detener_timers	8	static
+AP_FuncionesMDE.c:35:6:m_init_timer_boton_2s	8	static
+AP_FuncionesMDE.c:39:6:m_init_timer_amarillo_5s	8	static
+AP_FuncionesMDE.c:44:6:m_init_timer_rojo_30s	8	static
+AP_FuncionesMDE.c:49:6:m_init_timer_verde_20s	8	static
+AP_FuncionesMDE.c:54:6:m_limpiar_flags	8	static
+AP_FuncionesMDE.c:62:6:m_prender_amarillo	8	static
+AP_FuncionesMDE.c:68:6:m_prender_rojo	8	static
+AP_FuncionesMDE.c:74:6:m_prender_verde	8	static

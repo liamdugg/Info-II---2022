@@ -1,0 +1,2 @@
+../src/timer.c:12:10:SysTickInic	16	static
+../src/timer.c:32:6:SysTick_Handler	8	static

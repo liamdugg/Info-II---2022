@@ -1,0 +1,6 @@
+fsl_adc.h:751:24:ADC_GetStatusFlags	16	static
+fsl_adc.h:762:20:ADC_ClearStatusFlags	16	static
+adc.c:31:9:ADC_Promedio	24	static
+adc.c:44:9:temperatura	16	static
+adc.c:62:9:Potenciometro	16	static
+adc.c:71:6:ADC0_SEQA_IRQHandler	8	static

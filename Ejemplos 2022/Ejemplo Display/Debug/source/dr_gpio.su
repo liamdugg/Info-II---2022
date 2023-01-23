@@ -1,0 +1,6 @@
+../source/dr_gpio.c:20:6:SetPIN	24	static
+../source/dr_gpio.c:38:6:NotPIN	16	static
+../source/dr_gpio.c:54:6:SetDIR	24	static
+../source/dr_gpio.c:72:10:GetPIN	16	static
+../source/dr_gpio.c:97:6:SetPINMODE_IN	16	static
+../source/dr_gpio.c:110:6:SetPINMODE_OUT	16	static

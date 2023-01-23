@@ -1,0 +1,620 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+                              ./src/cr_startup_lpc84x.o (__main)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0xc ./src/adc.o
+ .group         0x0000000000000000        0xc ./src/adc.o
+ .group         0x0000000000000000        0xc ./src/adc.o
+ .group         0x0000000000000000        0xc ./src/adc.o
+ .text          0x0000000000000000        0x0 ./src/adc.o
+ .data          0x0000000000000000        0x0 ./src/adc.o
+ .bss           0x0000000000000000        0x0 ./src/adc.o
+ .text.__adc_seqa_set_mode_end_of_conversion
+                0x0000000000000000       0x20 ./src/adc.o
+ .text          0x0000000000000000        0x0 ./src/aeabi_romdiv_patch.o
+ .data          0x0000000000000000        0x0 ./src/aeabi_romdiv_patch.o
+ .bss           0x0000000000000000        0x0 ./src/aeabi_romdiv_patch.o
+ .text.__aeabi_idiv
+                0x0000000000000000       0x10 ./src/aeabi_romdiv_patch.o
+ .group         0x0000000000000000        0xc ./src/cr_startup_lpc84x.o
+ .text          0x0000000000000000        0x0 ./src/cr_startup_lpc84x.o
+ .data          0x0000000000000000        0x0 ./src/cr_startup_lpc84x.o
+ .bss           0x0000000000000000        0x0 ./src/cr_startup_lpc84x.o
+ .debug_macro   0x0000000000000000      0xa96 ./src/cr_startup_lpc84x.o
+ .group         0x0000000000000000        0xc ./src/crp.o
+ .group         0x0000000000000000        0xc ./src/crp.o
+ .text          0x0000000000000000        0x0 ./src/crp.o
+ .data          0x0000000000000000        0x0 ./src/crp.o
+ .bss           0x0000000000000000        0x0 ./src/crp.o
+ .crp           0x0000000000000000        0x4 ./src/crp.o
+ .debug_info    0x0000000000000000       0x40 ./src/crp.o
+ .debug_abbrev  0x0000000000000000       0x38 ./src/crp.o
+ .debug_aranges
+                0x0000000000000000       0x18 ./src/crp.o
+ .debug_macro   0x0000000000000000       0x1a ./src/crp.o
+ .debug_macro   0x0000000000000000      0xa96 ./src/crp.o
+ .debug_macro   0x0000000000000000       0x34 ./src/crp.o
+ .debug_line    0x0000000000000000       0xb5 ./src/crp.o
+ .debug_str     0x0000000000000000     0x2e1d ./src/crp.o
+ .comment       0x0000000000000000       0x4d ./src/crp.o
+ .ARM.attributes
+                0x0000000000000000       0x31 ./src/crp.o
+ .group         0x0000000000000000        0xc ./src/mtb.o
+ .group         0x0000000000000000        0xc ./src/mtb.o
+ .group         0x0000000000000000        0xc ./src/mtb.o
+ .text          0x0000000000000000        0x0 ./src/mtb.o
+ .data          0x0000000000000000        0x0 ./src/mtb.o
+ .bss           0x0000000000000000        0x0 ./src/mtb.o
+ .debug_macro   0x0000000000000000      0xa96 ./src/mtb.o
+ .group         0x0000000000000000        0xc ./src/prueba_adc.o
+ .group         0x0000000000000000        0xc ./src/prueba_adc.o
+ .group         0x0000000000000000        0xc ./src/prueba_adc.o
+ .group         0x0000000000000000        0xc ./src/prueba_adc.o
+ .group         0x0000000000000000        0xc ./src/prueba_adc.o
+ .text          0x0000000000000000        0x0 ./src/prueba_adc.o
+ .data          0x0000000000000000        0x0 ./src/prueba_adc.o
+ .bss           0x0000000000000000        0x0 ./src/prueba_adc.o
+ .debug_macro   0x0000000000000000      0xa96 ./src/prueba_adc.o
+ .debug_macro   0x0000000000000000       0x82 ./src/prueba_adc.o
+ .debug_macro   0x0000000000000000       0x10 ./src/prueba_adc.o
+ .debug_macro   0x0000000000000000      0x12e ./src/prueba_adc.o
+ .debug_macro   0x0000000000000000      0x5b3 ./src/prueba_adc.o
+ .group         0x0000000000000000        0xc ./src/swm.o
+ .group         0x0000000000000000        0xc ./src/swm.o
+ .group         0x0000000000000000        0xc ./src/swm.o
+ .group         0x0000000000000000        0xc ./src/swm.o
+ .text          0x0000000000000000        0x0 ./src/swm.o
+ .data          0x0000000000000000        0x0 ./src/swm.o
+ .bss           0x0000000000000000        0x0 ./src/swm.o
+ .debug_macro   0x0000000000000000      0xa96 ./src/swm.o
+ .debug_macro   0x0000000000000000       0x10 ./src/swm.o
+ .debug_macro   0x0000000000000000      0x12e ./src/swm.o
+ .debug_macro   0x0000000000000000      0x5b3 ./src/swm.o
+ .group         0x0000000000000000        0xc ./src/systick.o
+ .group         0x0000000000000000        0xc ./src/systick.o
+ .group         0x0000000000000000        0xc ./src/systick.o
+ .group         0x0000000000000000        0xc ./src/systick.o
+ .text          0x0000000000000000        0x0 ./src/systick.o
+ .data          0x0000000000000000        0x0 ./src/systick.o
+ .bss           0x0000000000000000        0x0 ./src/systick.o
+ .debug_macro   0x0000000000000000      0xa96 ./src/systick.o
+ .debug_macro   0x0000000000000000       0x10 ./src/systick.o
+ .debug_macro   0x0000000000000000      0x12e ./src/systick.o
+ .debug_macro   0x0000000000000000      0x5b3 ./src/systick.o
+ .group         0x0000000000000000        0xc ./src/usart.o
+ .group         0x0000000000000000        0xc ./src/usart.o
+ .group         0x0000000000000000        0xc ./src/usart.o
+ .group         0x0000000000000000        0xc ./src/usart.o
+ .text          0x0000000000000000        0x0 ./src/usart.o
+ .data          0x0000000000000000        0x0 ./src/usart.o
+ .bss           0x0000000000000000        0x0 ./src/usart.o
+ .text.__usart_pop_rx
+                0x0000000000000000       0x6c ./src/usart.o
+ .text.usart_read
+                0x0000000000000000       0x4c ./src/usart.o
+ .debug_macro   0x0000000000000000      0xa96 ./src/usart.o
+ .debug_macro   0x0000000000000000       0x10 ./src/usart.o
+ .debug_macro   0x0000000000000000      0x12e ./src/usart.o
+ .debug_macro   0x0000000000000000      0x5b3 ./src/usart.o
+ .text          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+ .data          0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+ .bss           0x0000000000000000        0x0 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash64         0x0000000000000000 0x0000000000010000 xr
+RamLoc16         0x0000000010000000 0x0000000000004000 xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./src/adc.o
+LOAD ./src/aeabi_romdiv_patch.o
+LOAD ./src/cr_startup_lpc84x.o
+LOAD ./src/crp.o
+LOAD ./src/mtb.o
+LOAD ./src/prueba_adc.o
+LOAD ./src/swm.o
+LOAD ./src/systick.o
+LOAD ./src/usart.o
+START GROUP
+LOAD /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a
+LOAD /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libcr_eabihelpers.a
+LOAD /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v6-m/nofp/libgcc.a
+END GROUP
+                0x0000000000000000                __base_MFlash64 = 0x0
+                0x0000000000000000                __base_Flash = 0x0
+                0x0000000000010000                __top_MFlash64 = 0x10000
+                0x0000000000010000                __top_Flash = 0x10000
+                0x0000000010000000                __base_RamLoc16 = 0x10000000
+                0x0000000010000000                __base_RAM = 0x10000000
+                0x0000000010004000                __top_RamLoc16 = 0x10004000
+                0x0000000010004000                __top_RAM = 0x10004000
+
+.text           0x0000000000000000      0xa6c
+ FILL mask 0xff
+                0x0000000000000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x0000000000000000       0xc0 ./src/cr_startup_lpc84x.o
+                0x0000000000000000                g_pfnVectors
+                0x00000000000000c0                . = ALIGN (0x4)
+                0x00000000000000c0                __section_table_start = .
+                0x00000000000000c0                __data_section_table = .
+                0x00000000000000c0        0x4 LONG 0xa6c LOADADDR (.data)
+                0x00000000000000c4        0x4 LONG 0x10000100 ADDR (.data)
+                0x00000000000000c8        0x4 LONG 0x8 SIZEOF (.data)
+                0x00000000000000cc                __data_section_table_end = .
+                0x00000000000000cc                __bss_section_table = .
+                0x00000000000000cc        0x4 LONG 0x10000108 ADDR (.bss)
+                0x00000000000000d0        0x4 LONG 0xb8 SIZEOF (.bss)
+                0x00000000000000d4                __bss_section_table_end = .
+                0x00000000000000d4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x00000000000000d4      0x144 ./src/cr_startup_lpc84x.o
+                0x00000000000000d4                data_init
+                0x0000000000000116                bss_init
+                0x000000000000014c                ResetISR
+                0x00000000000001f4                NMI_Handler
+                0x00000000000001fa                HardFault_Handler
+                0x0000000000000200                SVC_Handler
+                0x0000000000000206                PendSV_Handler
+                0x0000000000000212                CMP_IRQHandler
+                0x0000000000000212                PININT7_IRQHandler
+                0x0000000000000212                I2C0_IRQHandler
+                0x0000000000000212                WKT_IRQHandler
+                0x0000000000000212                PININT2_IRQHandler
+                0x0000000000000212                PININT1_IRQHandler
+                0x0000000000000212                MRT_IRQHandler
+                0x0000000000000212                I2C1_IRQHandler
+                0x0000000000000212                UART1_IRQHandler
+                0x0000000000000212                ADC_SEQB_IRQHandler
+                0x0000000000000212                SPI1_IRQHandler
+                0x0000000000000212                IntDefaultHandler
+                0x0000000000000212                ADC_OVR_IRQHandler
+                0x0000000000000212                I2C2_IRQHandler
+                0x0000000000000212                PININT3_IRQHandler
+                0x0000000000000212                UART2_IRQHandler
+                0x0000000000000212                PININT5_IRQHandler
+                0x0000000000000212                PININT4_IRQHandler
+                0x0000000000000212                ADC_THCMP_IRQHandler
+                0x0000000000000212                PININT0_IRQHandler
+                0x0000000000000212                BOD_IRQHandler
+                0x0000000000000212                I2C3_IRQHandler
+                0x0000000000000212                SCT_IRQHandler
+                0x0000000000000212                WDT_IRQHandler
+                0x0000000000000212                FAIM_IRQHandler
+                0x0000000000000212                DAC0_IRQHandler
+                0x0000000000000212                PININT6_IRQHandler
+                0x0000000000000212                SPI0_IRQHandler
+                0x0000000000000212                DMA_IRQHandler
+                0x0000000000000212                FLASH_IRQHandler
+                0x0000000000000212                CTIMER0_IRQHandler
+ *(.text*)
+ .text.__adc_set_clkdiv
+                0x0000000000000218       0x34 ./src/adc.o
+ .text.__adc_seqa_set_channels
+                0x000000000000024c       0x38 ./src/adc.o
+ .text.__adc_seqa_set_mode_end_of_sequence
+                0x0000000000000284       0x1c ./src/adc.o
+ .text.__adc_seqa_enable_sequence
+                0x00000000000002a0       0x1c ./src/adc.o
+ .text.__adc_inten_enable_seqa
+                0x00000000000002bc       0x1c ./src/adc.o
+ .text.adc_init
+                0x00000000000002d8       0x74 ./src/adc.o
+                0x00000000000002d8                adc_init
+ .text.adc_start_conversion
+                0x000000000000034c       0x1c ./src/adc.o
+                0x000000000000034c                adc_start_conversion
+ .text.adc_finished
+                0x0000000000000368       0x88 ./src/adc.o
+                0x0000000000000368                adc_finished
+ .text.ADC_SEQA_IRQHandler
+                0x00000000000003f0       0x48 ./src/adc.o
+                0x00000000000003f0                ADC_SEQA_IRQHandler
+ .text.__aeabi_uidiv
+                0x0000000000000438       0x10 ./src/aeabi_romdiv_patch.o
+                0x0000000000000438                __aeabi_uidiv
+                0x0000000000000438                __aeabi_uidivmod
+ .text.main     0x0000000000000448      0x198 ./src/prueba_adc.o
+                0x0000000000000448                main
+ .text.swm_power_on
+                0x00000000000005e0       0x1c ./src/swm.o
+                0x00000000000005e0                swm_power_on
+ .text.swm_power_off
+                0x00000000000005fc       0x1c ./src/swm.o
+                0x00000000000005fc                swm_power_off
+ .text.swm_select_usart0_txd
+                0x0000000000000618       0x34 ./src/swm.o
+                0x0000000000000618                swm_select_usart0_txd
+ .text.swm_select_usart0_rxd
+                0x000000000000064c       0x3c ./src/swm.o
+                0x000000000000064c                swm_select_usart0_rxd
+ .text.swm_enable_adc
+                0x0000000000000688       0x34 ./src/swm.o
+                0x0000000000000688                swm_enable_adc
+ .text.SysTick_Handler
+                0x00000000000006bc       0x24 ./src/systick.o
+                0x00000000000006bc                SysTick_Handler
+ .text.systick_init
+                0x00000000000006e0       0x34 ./src/systick.o
+                0x00000000000006e0                systick_init
+ .text.systick_tick_time
+                0x0000000000000714       0x40 ./src/systick.o
+                0x0000000000000714                systick_tick_time
+ .text.__usart_push_rx
+                0x0000000000000754       0x6c ./src/usart.o
+ .text.__usart_push_tx
+                0x00000000000007c0       0x6c ./src/usart.o
+ .text.__usart_pop_tx
+                0x000000000000082c       0x6c ./src/usart.o
+ .text.usart_init
+                0x0000000000000898      0x100 ./src/usart.o
+                0x0000000000000898                usart_init
+ .text.usart_send
+                0x0000000000000998       0x54 ./src/usart.o
+                0x0000000000000998                usart_send
+ .text.UART0_IRQHandler
+                0x00000000000009ec       0x78 ./src/usart.o
+                0x00000000000009ec                UART0_IRQHandler
+ .text.__weak_main
+                0x0000000000000a64        0x8 /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+                0x0000000000000a64                __main
+                0x0000000000000a64                __weak_main
+ *(.rodata .rodata.* .constdata .constdata.*)
+                0x0000000000000a6c                . = ALIGN (0x4)
+
+.glue_7         0x0000000000000a6c        0x0
+ .glue_7        0x0000000000000a6c        0x0 linker stubs
+
+.glue_7t        0x0000000000000a6c        0x0
+ .glue_7t       0x0000000000000a6c        0x0 linker stubs
+
+.vfp11_veneer   0x0000000000000a6c        0x0
+ .vfp11_veneer  0x0000000000000a6c        0x0 linker stubs
+
+.v4_bx          0x0000000000000a6c        0x0
+ .v4_bx         0x0000000000000a6c        0x0 linker stubs
+
+.iplt           0x0000000000000a6c        0x0
+ .iplt          0x0000000000000a6c        0x0 ./src/adc.o
+
+.rel.dyn        0x0000000000000a6c        0x0
+ .rel.iplt      0x0000000000000a6c        0x0 ./src/adc.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+
+.ARM.exidx      0x0000000000000a6c        0x0
+                0x0000000000000a6c                __exidx_start = .
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x0000000000000a6c                __exidx_end = .
+                0x0000000000000a6c                _etext = .
+
+.mtb_buffer_default
+                0x0000000010000000      0x100
+ *(.mtb*)
+ .mtb.$RAM1     0x0000000010000000      0x100 ./src/mtb.o
+                0x0000000010000000                __mtb_buffer__
+
+.uninit_RESERVED
+                0x0000000010000100        0x0
+                0x0000000010000100                _start_uninit_RESERVED = .
+ *(.bss.$RESERVED*)
+                0x0000000010000100                . = ALIGN (0x4)
+                0x0000000010000100                _end_uninit_RESERVED = .
+
+.data           0x0000000010000100        0x8 load address 0x0000000000000a6c
+ FILL mask 0xff
+                0x0000000010000100                _data = .
+                [!provide]                        PROVIDE (__start_data_RAM = .)
+                [!provide]                        PROVIDE (__start_data_RamLoc16 = .)
+ *(vtable)
+ *(.ramfunc*)
+ *(CodeQuickAccess)
+ *(DataQuickAccess)
+ *(RamFunction)
+ *(.data*)
+ .data.__rx_empty
+                0x0000000010000100        0x4 ./src/usart.o
+ .data.__tx_empty
+                0x0000000010000104        0x4 ./src/usart.o
+                0x0000000010000108                . = ALIGN (0x4)
+                0x0000000010000108                _edata = .
+                [!provide]                        PROVIDE (__end_data_RAM = .)
+                [!provide]                        PROVIDE (__end_data_RamLoc16 = .)
+
+.igot.plt       0x0000000010000108        0x0 load address 0x0000000000000a74
+ .igot.plt      0x0000000010000108        0x0 ./src/adc.o
+
+.bss            0x0000000010000108       0xb8
+                0x0000000010000108                _bss = .
+                [!provide]                        PROVIDE (__start_bss_RAM = .)
+                [!provide]                        PROVIDE (__start_bss_RamLoc16 = .)
+ *(.bss*)
+ .bss.__adc_finished
+                0x0000000010000108        0x4 ./src/adc.o
+ .bss.__adc_result_0
+                0x000000001000010c        0x4 ./src/adc.o
+ .bss.__adc_result_1
+                0x0000000010000110        0x4 ./src/adc.o
+ .bss.pDivRom_idiv
+                0x0000000010000114        0x4 ./src/cr_startup_lpc84x.o
+                0x0000000010000114                pDivRom_idiv
+ .bss.pDivRom_uidiv
+                0x0000000010000118        0x4 ./src/cr_startup_lpc84x.o
+                0x0000000010000118                pDivRom_uidiv
+ *fill*         0x000000001000011c        0x4 
+ .bss.__tick    0x0000000010000120        0x8 ./src/systick.o
+ .bss.__rx_buff
+                0x0000000010000128       0x40 ./src/usart.o
+ .bss.__rx_full
+                0x0000000010000168        0x4 ./src/usart.o
+ .bss.__rx_in_idx
+                0x000000001000016c        0x4 ./src/usart.o
+ .bss.__rx_out_idx
+                0x0000000010000170        0x4 ./src/usart.o
+ .bss.__tx_buff
+                0x0000000010000174       0x40 ./src/usart.o
+ .bss.__tx_full
+                0x00000000100001b4        0x4 ./src/usart.o
+ .bss.__tx_in_idx
+                0x00000000100001b8        0x4 ./src/usart.o
+ .bss.__tx_out_idx
+                0x00000000100001bc        0x4 ./src/usart.o
+ *(COMMON)
+                0x00000000100001c0                . = ALIGN (0x4)
+                0x00000000100001c0                _ebss = .
+                [!provide]                        PROVIDE (__end_bss_RAM = .)
+                [!provide]                        PROVIDE (__end_bss_RamLoc16 = .)
+                [!provide]                        PROVIDE (end = .)
+
+.noinit         0x00000000100001c0        0x0
+                0x00000000100001c0                _noinit = .
+                [!provide]                        PROVIDE (__start_noinit_RAM = .)
+                [!provide]                        PROVIDE (__start_noinit_RamLoc16 = .)
+ *(.noinit*)
+                0x00000000100001c0                . = ALIGN (0x4)
+                0x00000000100001c0                _end_noinit = .
+                [!provide]                        PROVIDE (__end_noinit_RAM = .)
+                [!provide]                        PROVIDE (__end_noinit_RamLoc16 = .)
+                [!provide]                        PROVIDE (_pvHeapStart = DEFINED (__user_heap_base)?__user_heap_base:.)
+                0x0000000010004000                PROVIDE (_vStackTop = DEFINED (__user_stack_top)?__user_stack_top:(__top_RamLoc16 - 0x0))
+                0xffffffffefffbac3                PROVIDE (__valid_user_code_checksum = (0x0 - (((_vStackTop + (ResetISR + 0x1)) + (DEFINED (NMI_Handler)?NMI_Handler:M0_NMI_Handler + 0x1)) + (DEFINED (HardFault_Handler)?HardFault_Handler:M0_HardFault_Handler + 0x1))))
+                0x0000000000000000                _image_start = LOADADDR (.text)
+                0x0000000000000a74                _image_end = (LOADADDR (.data) + SIZEOF (.data))
+                0x0000000000000a74                _image_size = (_image_end - _image_start)
+OUTPUT(prueba_adc.axf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x0000000000000000      0xbf7
+ .debug_info    0x0000000000000000      0x22a ./src/adc.o
+ .debug_info    0x000000000000022a       0x22 ./src/aeabi_romdiv_patch.o
+ .debug_info    0x000000000000024c      0x255 ./src/cr_startup_lpc84x.o
+ .debug_info    0x00000000000004a1       0x54 ./src/mtb.o
+ .debug_info    0x00000000000004f5      0x104 ./src/prueba_adc.o
+ .debug_info    0x00000000000005f9      0x174 ./src/swm.o
+ .debug_info    0x000000000000076d      0x125 ./src/systick.o
+ .debug_info    0x0000000000000892      0x365 ./src/usart.o
+
+.debug_abbrev   0x0000000000000000      0x6b9
+ .debug_abbrev  0x0000000000000000      0x167 ./src/adc.o
+ .debug_abbrev  0x0000000000000167       0x12 ./src/aeabi_romdiv_patch.o
+ .debug_abbrev  0x0000000000000179      0x12a ./src/cr_startup_lpc84x.o
+ .debug_abbrev  0x00000000000002a3       0x46 ./src/mtb.o
+ .debug_abbrev  0x00000000000002e9       0xad ./src/prueba_adc.o
+ .debug_abbrev  0x0000000000000396       0xd8 ./src/swm.o
+ .debug_abbrev  0x000000000000046e       0xd0 ./src/systick.o
+ .debug_abbrev  0x000000000000053e      0x17b ./src/usart.o
+
+.debug_aranges  0x0000000000000000      0x1f0
+ .debug_aranges
+                0x0000000000000000       0x68 ./src/adc.o
+ .debug_aranges
+                0x0000000000000068       0x28 ./src/aeabi_romdiv_patch.o
+ .debug_aranges
+                0x0000000000000090       0x60 ./src/cr_startup_lpc84x.o
+ .debug_aranges
+                0x00000000000000f0       0x18 ./src/mtb.o
+ .debug_aranges
+                0x0000000000000108       0x20 ./src/prueba_adc.o
+ .debug_aranges
+                0x0000000000000128       0x40 ./src/swm.o
+ .debug_aranges
+                0x0000000000000168       0x30 ./src/systick.o
+ .debug_aranges
+                0x0000000000000198       0x58 ./src/usart.o
+
+.debug_ranges   0x0000000000000000      0x170
+ .debug_ranges  0x0000000000000000       0x58 ./src/adc.o
+ .debug_ranges  0x0000000000000058       0x20 ./src/aeabi_romdiv_patch.o
+ .debug_ranges  0x0000000000000078       0x50 ./src/cr_startup_lpc84x.o
+ .debug_ranges  0x00000000000000c8       0x10 ./src/prueba_adc.o
+ .debug_ranges  0x00000000000000d8       0x30 ./src/swm.o
+ .debug_ranges  0x0000000000000108       0x20 ./src/systick.o
+ .debug_ranges  0x0000000000000128       0x48 ./src/usart.o
+
+.debug_macro    0x0000000000000000     0x14fc
+ .debug_macro   0x0000000000000000       0xb0 ./src/adc.o
+ .debug_macro   0x00000000000000b0      0xa96 ./src/adc.o
+ .debug_macro   0x0000000000000b46       0x10 ./src/adc.o
+ .debug_macro   0x0000000000000b56      0x12e ./src/adc.o
+ .debug_macro   0x0000000000000c84      0x5b3 ./src/adc.o
+ .debug_macro   0x0000000000001237       0x23 ./src/cr_startup_lpc84x.o
+ .debug_macro   0x000000000000125a       0x29 ./src/mtb.o
+ .debug_macro   0x0000000000001283       0x82 ./src/mtb.o
+ .debug_macro   0x0000000000001305       0x10 ./src/mtb.o
+ .debug_macro   0x0000000000001315       0x69 ./src/prueba_adc.o
+ .debug_macro   0x000000000000137e       0x5e ./src/swm.o
+ .debug_macro   0x00000000000013dc       0x64 ./src/systick.o
+ .debug_macro   0x0000000000001440       0xbc ./src/usart.o
+
+.debug_line     0x0000000000000000      0xff7
+ .debug_line    0x0000000000000000      0x2fc ./src/adc.o
+ .debug_line    0x00000000000002fc       0x65 ./src/aeabi_romdiv_patch.o
+ .debug_line    0x0000000000000361      0x14d ./src/cr_startup_lpc84x.o
+ .debug_line    0x00000000000004ae       0xd2 ./src/mtb.o
+ .debug_line    0x0000000000000580      0x2a2 ./src/prueba_adc.o
+ .debug_line    0x0000000000000822      0x240 ./src/swm.o
+ .debug_line    0x0000000000000a62      0x208 ./src/systick.o
+ .debug_line    0x0000000000000c6a      0x38d ./src/usart.o
+
+.debug_str      0x0000000000000000     0x554e
+ .debug_str     0x0000000000000000     0x47e5 ./src/adc.o
+                                       0x4874 (size before relaxing)
+ .debug_str     0x00000000000047e5       0x2a ./src/aeabi_romdiv_patch.o
+                                         0x6b (size before relaxing)
+ .debug_str     0x000000000000480f      0x1e2 ./src/cr_startup_lpc84x.o
+                                       0x2f1c (size before relaxing)
+ .debug_str     0x00000000000049f1      0x519 ./src/mtb.o
+                                       0x3252 (size before relaxing)
+ .debug_str     0x0000000000004f0a       0x4e ./src/prueba_adc.o
+                                       0x48dd (size before relaxing)
+ .debug_str     0x0000000000004f58      0x107 ./src/swm.o
+                                       0x457c (size before relaxing)
+ .debug_str     0x000000000000505f      0x11d ./src/systick.o
+                                       0x456f (size before relaxing)
+ .debug_str     0x000000000000517c      0x3d2 ./src/usart.o
+                                       0x488b (size before relaxing)
+
+.comment        0x0000000000000000       0x4c
+ .comment       0x0000000000000000       0x4c ./src/adc.o
+                                         0x4d (size before relaxing)
+ .comment       0x000000000000004c       0x4d ./src/cr_startup_lpc84x.o
+ .comment       0x000000000000004c       0x4d ./src/mtb.o
+ .comment       0x000000000000004c       0x4d ./src/prueba_adc.o
+ .comment       0x000000000000004c       0x4d ./src/swm.o
+ .comment       0x000000000000004c       0x4d ./src/systick.o
+ .comment       0x000000000000004c       0x4d ./src/usart.o
+ .comment       0x000000000000004c       0x4d /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+
+.ARM.attributes
+                0x0000000000000000       0x2a
+ .ARM.attributes
+                0x0000000000000000       0x2c ./src/adc.o
+ .ARM.attributes
+                0x000000000000002c       0x1c ./src/aeabi_romdiv_patch.o
+ .ARM.attributes
+                0x0000000000000048       0x2c ./src/cr_startup_lpc84x.o
+ .ARM.attributes
+                0x0000000000000074       0x31 ./src/mtb.o
+ .ARM.attributes
+                0x00000000000000a5       0x2c ./src/prueba_adc.o
+ .ARM.attributes
+                0x00000000000000d1       0x2c ./src/swm.o
+ .ARM.attributes
+                0x00000000000000fd       0x2c ./src/systick.o
+ .ARM.attributes
+                0x0000000000000129       0x2c ./src/usart.o
+ .ARM.attributes
+                0x0000000000000155       0x2c /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+
+.debug_frame    0x0000000000000000      0x498
+ .debug_frame   0x0000000000000000      0x134 ./src/adc.o
+ .debug_frame   0x0000000000000134      0x118 ./src/cr_startup_lpc84x.o
+ .debug_frame   0x000000000000024c       0x30 ./src/prueba_adc.o
+ .debug_frame   0x000000000000027c       0xa8 ./src/swm.o
+ .debug_frame   0x0000000000000324       0x68 ./src/systick.o
+ .debug_frame   0x000000000000038c      0x10c ./src/usart.o
+
+Cross Reference Table
+
+Symbol                                            File
+ADC_OVR_IRQHandler                                ./src/cr_startup_lpc84x.o
+ADC_SEQA_IRQHandler                               ./src/adc.o
+ADC_SEQB_IRQHandler                               ./src/cr_startup_lpc84x.o
+ADC_THCMP_IRQHandler                              ./src/cr_startup_lpc84x.o
+BOD_IRQHandler                                    ./src/cr_startup_lpc84x.o
+CMP_IRQHandler                                    ./src/cr_startup_lpc84x.o
+CRP_WORD                                          ./src/crp.o
+CTIMER0_IRQHandler                                ./src/cr_startup_lpc84x.o
+DAC0_IRQHandler                                   ./src/cr_startup_lpc84x.o
+DMA_IRQHandler                                    ./src/cr_startup_lpc84x.o
+FAIM_IRQHandler                                   ./src/cr_startup_lpc84x.o
+FLASH_IRQHandler                                  ./src/cr_startup_lpc84x.o
+HardFault_Handler                                 ./src/cr_startup_lpc84x.o
+I2C0_IRQHandler                                   ./src/cr_startup_lpc84x.o
+I2C1_IRQHandler                                   ./src/cr_startup_lpc84x.o
+I2C2_IRQHandler                                   ./src/cr_startup_lpc84x.o
+I2C3_IRQHandler                                   ./src/cr_startup_lpc84x.o
+IntDefaultHandler                                 ./src/cr_startup_lpc84x.o
+MRT_IRQHandler                                    ./src/cr_startup_lpc84x.o
+NMI_Handler                                       ./src/cr_startup_lpc84x.o
+PININT0_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT1_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT2_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT3_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT4_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT5_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT6_IRQHandler                                ./src/cr_startup_lpc84x.o
+PININT7_IRQHandler                                ./src/cr_startup_lpc84x.o
+PendSV_Handler                                    ./src/cr_startup_lpc84x.o
+ResetISR                                          ./src/cr_startup_lpc84x.o
+SCT_IRQHandler                                    ./src/cr_startup_lpc84x.o
+SPI0_IRQHandler                                   ./src/cr_startup_lpc84x.o
+SPI1_IRQHandler                                   ./src/cr_startup_lpc84x.o
+SVC_Handler                                       ./src/cr_startup_lpc84x.o
+SysTick_Handler                                   ./src/systick.o
+                                                  ./src/cr_startup_lpc84x.o
+UART0_IRQHandler                                  ./src/usart.o
+                                                  ./src/cr_startup_lpc84x.o
+UART1_IRQHandler                                  ./src/cr_startup_lpc84x.o
+UART2_IRQHandler                                  ./src/cr_startup_lpc84x.o
+WDT_IRQHandler                                    ./src/cr_startup_lpc84x.o
+WKT_IRQHandler                                    ./src/cr_startup_lpc84x.o
+__aeabi_idiv                                      ./src/aeabi_romdiv_patch.o
+__aeabi_idivmod                                   ./src/aeabi_romdiv_patch.o
+__aeabi_uidiv                                     ./src/aeabi_romdiv_patch.o
+                                                  ./src/prueba_adc.o
+__aeabi_uidivmod                                  ./src/aeabi_romdiv_patch.o
+                                                  ./src/prueba_adc.o
+__bss_section_table_end                           ./src/cr_startup_lpc84x.o
+__data_section_table                              ./src/cr_startup_lpc84x.o
+__data_section_table_end                          ./src/cr_startup_lpc84x.o
+__main                                            /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+                                                  ./src/cr_startup_lpc84x.o
+__mtb_buffer__                                    ./src/mtb.o
+__valid_user_code_checksum                        ./src/cr_startup_lpc84x.o
+__weak_main                                       /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+_vStackTop                                        ./src/cr_startup_lpc84x.o
+adc_finished                                      ./src/adc.o
+                                                  ./src/prueba_adc.o
+adc_init                                          ./src/adc.o
+                                                  ./src/prueba_adc.o
+adc_start_conversion                              ./src/adc.o
+                                                  ./src/prueba_adc.o
+bss_init                                          ./src/cr_startup_lpc84x.o
+data_init                                         ./src/cr_startup_lpc84x.o
+g_pfnVectors                                      ./src/cr_startup_lpc84x.o
+main                                              ./src/prueba_adc.o
+                                                  /usr/local/mcuxpressoide-11.3.1_5262/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.3.0.202011031536/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libcr_c.a(__weak__main.o)
+pDivRom_idiv                                      ./src/cr_startup_lpc84x.o
+                                                  ./src/aeabi_romdiv_patch.o
+pDivRom_uidiv                                     ./src/cr_startup_lpc84x.o
+                                                  ./src/aeabi_romdiv_patch.o
+swm_enable_adc                                    ./src/swm.o
+                                                  ./src/adc.o
+swm_power_off                                     ./src/swm.o
+                                                  ./src/usart.o
+                                                  ./src/adc.o
+swm_power_on                                      ./src/swm.o
+                                                  ./src/usart.o
+                                                  ./src/adc.o
+swm_select_usart0_rxd                             ./src/swm.o
+                                                  ./src/usart.o
+swm_select_usart0_txd                             ./src/swm.o
+                                                  ./src/usart.o
+systick_init                                      ./src/systick.o
+                                                  ./src/prueba_adc.o
+systick_tick_time                                 ./src/systick.o
+                                                  ./src/prueba_adc.o
+usart_init                                        ./src/usart.o
+                                                  ./src/prueba_adc.o
+usart_read                                        ./src/usart.o
+usart_send                                        ./src/usart.o
+                                                  ./src/prueba_adc.o

@@ -1,0 +1,4 @@
+../src/main.c:19:6:timer1Handler	8	static
+../src/main.c:23:6:timer2Handler	8	static
+../src/main.c:28:6:timer3Handler	8	static
+../src/main.c:34:5:main	16	static

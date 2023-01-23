@@ -1,0 +1,8 @@
+usart.c:40:17:__usart_push_rx	24	static
+usart.c:57:17:__usart_pop_rx	24	static
+usart.c:74:17:__usart_push_tx	24	static
+usart.c:91:17:__usart_pop_tx	24	static
+usart.c:108:6:usart_init	8	static
+usart.c:156:9:usart_read	16	static
+usart.c:165:9:usart_send	24	static
+usart.c:174:6:UART0_IRQHandler	24	static

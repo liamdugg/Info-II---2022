@@ -1,0 +1,7 @@
+main.c:19:6:timer1Handler	8	static
+main.c:23:6:timer2Handler	8	static
+main.c:28:5:main	8	static
+main.c:70:6:apagarLED	8	static
+main.c:76:6:prenderLED	8	static
+main.c:82:6:encenderTimer1	16	static
+main.c:89:6:encenderTimer2	16	static

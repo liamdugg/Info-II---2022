@@ -1,0 +1,4 @@
+swm.c:7:6:swm_power_on	8	static
+swm.c:11:6:swm_power_off	8	static
+swm.c:15:6:swm_select_usart0_txd	16	static
+swm.c:20:6:swm_select_usart0_rxd	16	static

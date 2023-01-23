@@ -1,0 +1,2 @@
+../src/timer.c:23:10:SysTick_Config	16	static
+../src/timer.c:42:6:SysTick_Handler	8	static

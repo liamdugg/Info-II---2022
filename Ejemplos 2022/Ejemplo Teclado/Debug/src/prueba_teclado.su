@@ -1,0 +1,11 @@
+prueba_teclado.c:106:6:gpio_config_dir	24	static
+prueba_teclado.c:128:10:gpio_read_pin	16	static
+prueba_teclado.c:149:6:gpio_write_pin	24	static
+prueba_teclado.c:167:6:config_matrix_keyboard	8	static
+prueba_teclado.c:192:6:config_systick	8	static
+prueba_teclado.c:198:6:mtx_kbd_barrido	32	static
+prueba_teclado.c:236:10:decodificar_tecla	16	static
+prueba_teclado.c:250:6:mtx_kbd_debounce	24	static
+prueba_teclado.c:272:10:getTecla	16	static
+prueba_teclado.c:280:6:SysTick_Handler	16	static
+prueba_teclado.c:286:5:main	16	static

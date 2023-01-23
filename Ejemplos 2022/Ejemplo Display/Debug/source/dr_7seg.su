@@ -1,0 +1,4 @@
+../source/dr_7seg.c:18:6:DISPLAY_7SEG_Barrido_v2	16	static
+../source/dr_7seg.c:59:6:DISPLAY_7SEG_Barrido	8	static
+../source/dr_7seg.c:88:6:DISPLAY_7SEG_Print	24	static
+../source/dr_7seg.c:99:6:DISPLAY_7SEG_Print_v2	32	static
