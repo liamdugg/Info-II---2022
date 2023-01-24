@@ -1,0 +1,4 @@
+../src/AP_Inicializacion.c:43:13:Inicializar_Semaforo	8	static
+../src/AP_Inicializacion.c:52:13:Inicilizar_GPIO	8	static
+../src/AP_Inicializacion.c:86:13:Inicializar_Systick	8	static
+../src/AP_Inicializacion.c:114:6:Inicializar	8	static

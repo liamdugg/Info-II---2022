@@ -1,0 +1,3 @@
+../src/AP_MDE.c:60:12:Semaforo	16	static
+../src/AP_MDE.c:139:6:MaquinaDeEstados	8	static
+../src/AP_MDE.c:151:6:SysTick_Handler	8	static

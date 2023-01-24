@@ -1,0 +1,6 @@
+../src/AP_FuncionesMDE.c:35:6:m_Iniciar_Timer	16	static
+../src/AP_FuncionesMDE.c:40:6:m_Prender_Amarillo	8	static
+../src/AP_FuncionesMDE.c:49:6:m_Prender_Rojo	8	static
+../src/AP_FuncionesMDE.c:56:6:m_Prender_Verde	8	static
+../src/AP_FuncionesMDE.c:63:6:m_Apagar_Leds	8	static
+../src/AP_FuncionesMDE.c:72:10:Estado_Tecla	16	static
