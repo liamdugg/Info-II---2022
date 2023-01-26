@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<proyecto>
+    <general>
+        <nombre>MaquinaCafe</nombre>
+        <autores>Liam</autores>
+        <creacion>24-01-2023 17:18:48</creacion>
+        <modificacion>24-01-2023 17:40:50</modificacion>
+        <carpeta>D:/Facultad/2 Segundo Año/Info II/Info II - 2022</carpeta>
+    </general>
+    <configuracion>
+        <hardware/>
+        <target/>
+    </configuracion>
+    <recursos>
+        <archivosC/>
+        <archivosH/>
+    </recursos>
+    <maquinas>
+        <maquina0>
+            <nombre>maquinaCafe</nombre>
+            <estadoInicial>
+                <pos_x>-1053</pos_x>
+                <pos_y>-668.5</pos_y>
+                <idAcciones>moneda = 0,eleccion = 0,tecla = 0,tiempo = 0,hayStock = 0</idAcciones>
+                <idProxEstado>estado0</idProxEstado>
+                <midPos>-1026.4,-648.2</midPos>
+                <textPos>-112,0</textPos>
+            </estadoInicial>
+            <estado0>
+                <diagrama>
+                    <nombre>ESPERANDO</nombre>
+                    <color>#e0ffff</color>
+                    <pos_x>-958</pos_x>
+                    <pos_y>-596</pos_y>
+                    <ancho>110</ancho>
+                    <alto>65</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>moneda == 1</idEvento>
+                        <idAcciones>m_startTimer(),moneda = 0,eleccion += 1</idAcciones>
+                        <idProxEstado>estado2</idProxEstado>
+                        <midPos>-718,-587</midPos>
+                        <textPos>0,-76</textPos>
+                    </tr0>
+                </transiciones>
+            </estado0>
+            <estado1>
+                <diagrama>
+                    <nombre>VALIDANDO</nombre>
+                    <color>#e0ffff</color>
+                    <pos_x>-763</pos_x>
+                    <pos_y>-184</pos_y>
+                    <ancho>110</ancho>
+                    <alto>65</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>s_teclaOK &amp;&amp; hayStock == 1</idEvento>
+                        <idAcciones>m_preparar_pedido()</idAcciones>
+                        <idProxEstado>estado0</idProxEstado>
+                        <midPos>-1066,-285</midPos>
+                        <textPos>-141,10</textPos>
+                    </tr0>
+                    <tr1>
+                        <idEvento>s_teclaMAL || hayStock == 0</idEvento>
+                        <idAcciones>m_startTimer(),m_dev_mon()</idAcciones>
+                        <idProxEstado>estado0</idProxEstado>
+                        <midPos>-901.7,-370.5</midPos>
+                        <textPos>45,-8</textPos>
+                    </tr1>
+                </transiciones>
+            </estado1>
+            <estado2>
+                <diagrama>
+                    <nombre>DETECTANDO</nombre>
+                    <color>#e0ffff</color>
+                    <pos_x>-420</pos_x>
+                    <pos_y>-475</pos_y>
+                    <ancho>110</ancho>
+                    <alto>65</alto>
+                </diagrama>
+                <transiciones>
+                    <tr0>
+                        <idEvento>moneda == 1 &amp;&amp; eleccion &lt;= 3</idEvento>
+                        <idAcciones>m_startTimer(),moneda = 0,eleccion += 1</idAcciones>
+                        <idProxEstado>estado2</idProxEstado>
+                        <midPos>-314,-627</midPos>
+                        <textPos>-109,-40</textPos>
+                    </tr0>
+                    <tr1>
+                        <idEvento>s_teclaOK</idEvento>
+                        <idAcciones></idAcciones>
+                        <idProxEstado>estado1</idProxEstado>
+                        <midPos>-516,-229</midPos>
+                        <textPos>-2,-1</textPos>
+                    </tr1>
+                    <tr2>
+                        <idEvento>tiempo == 0 || eleccion > 3</idEvento>
+                        <idAcciones>m_startTimer(),m_dev_mon()</idAcciones>
+                        <idProxEstado>estado0</idProxEstado>
+                        <midPos>-705,-484</midPos>
+                        <textPos>-134,-2</textPos>
+                    </tr2>
+                </transiciones>
+            </estado2>
+        </maquina0>
+    </maquinas>
+    <eventos>
+        <ev0>s_teclaOK</ev0>
+        <ev1>s_teclaMAL</ev1>
+    </eventos>
+    <acciones>
+        <acc0>m_startTimer()</acc0>
+        <acc1>m_dev_mon()</acc1>
+        <acc2>m_preparar_pedido()</acc2>
+    </acciones>
+    <variables>
+        <var0>moneda</var0>
+        <var1>tecla_fin</var1>
+        <var2>eleccion</var2>
+        <var3>tecla</var3>
+        <var4>tiempo</var4>
+        <var5>hayStock</var5>
+    </variables>
+    <constantes>
+        <cons0>TRUE,1</cons0>
+        <cons1>FALSE,0</cons1>
+        <cons2>ON,1</cons2>
+        <cons3>OFF,0</cons3>
+    </constantes>
+    <comentarios/>
+</proyecto>
