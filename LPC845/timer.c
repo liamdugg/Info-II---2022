@@ -1,3 +1,6 @@
+#include "Regs_LPC845.h"
+#include "timer.h"
+
 volatile 	uint32_t Tmr_Run[ N_TIMERS ];
 volatile 	uint8_t  TMR_Events[ N_TIMERS ];
 void 	 	(* TMR_handlers [N_TIMERS]) (void);

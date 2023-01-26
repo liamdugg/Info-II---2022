@@ -1,4 +1,5 @@
 #include "Teclado.h"
+#include "Regs_LPC845.h"
 
 // EJEMPLO DE TECLADO MATRICIAL DE 2X2 -- ADAPTAR A LO QUE SEA NECESARIO
 
@@ -16,6 +17,8 @@
 
 #define	REPOSO		0
 #define	DETECCION	1
+
+#define TICKS_DEBOUNCE 50
 
 uint8_t bufKey;
 
@@ -88,7 +91,7 @@ void debounceTeclado(uint8_t tecla){
 			}
 			
 			else if(cont == TICKS_DEBOUNCE){
-				bufKey = teclaVieja
+				bufKey = teclaVieja;
 				estado = REPOSO;
 			}
 
@@ -113,9 +116,9 @@ uint8_t getKey(){
 	
 	uint8_t tecla = NO_KEY;
 
-	if(bufkey != NO_KEY){
-		tecla = bufkey;
-		bufkey = NO_KEY;
+	if(bufKey != NO_KEY){
+		tecla = bufKey;
+		bufKey = NO_KEY;
 	}
 
 	return tecla;
