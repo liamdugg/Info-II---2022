@@ -1,0 +1,6 @@
+../src/AP_Inicializacion.c:41:13:Inicializar_Sensado_Temp	8	static
+../src/AP_Inicializacion.c:51:13:Inicializar_GPIO	8	static
+../src/AP_Inicializacion.c:63:13:Inicializar_ADC	8	static
+../src/AP_Inicializacion.c:110:13:Inicializar_UART	8	static
+../src/AP_Inicializacion.c:115:6:Inicializacion_Systick	8	static
+../src/AP_Inicializacion.c:138:6:Inicializar	8	static

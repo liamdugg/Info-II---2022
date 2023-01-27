@@ -275,19 +275,19 @@ typedef struct {
 
 // ISER0 - Habilita las interrupciones para un modulo en el NVIC
 #define ISER0_BASE       (0xE000E100)
-#define ISER0            *(volatile uint32_t *)ISER0_BASE
+#define ISER0            (*(volatile uint32_t *)(ISER0_BASE))
 
 // PINTSELx - Selecciona que pin se utiliza para las interrupciones
 #define PINTSEL_BASE     (0x40048178)
 
-#define PINTSEL_0        *(volatile uint32_t *)(PINTSEL_BASE + 0)
-#define PINTSEL_1        *(volatile uint32_t *)(PINTSEL_BASE + 0x04)
-#define PINTSEL_2        *(volatile uint32_t *)(PINTSEL_BASE + 0x08)
-#define PINTSEL_3        *(volatile uint32_t *)(PINTSEL_BASE + 0x0C)
-#define PINTSEL_4        *(volatile uint32_t *)(PINTSEL_BASE + 0x10)
-#define PINTSEL_5        *(volatile uint32_t *)(PINTSEL_BASE + 0x14)
-#define PINTSEL_6        *(volatile uint32_t *)(PINTSEL_BASE + 0x18)
-#define PINTSEL_7        *(volatile uint32_t *)(PINTSEL_BASE + 0x1C)
+#define PINTSEL_0        (*(volatile uint32_t *)(PINTSEL_BASE + 0))
+#define PINTSEL_1        (*(volatile uint32_t *)(PINTSEL_BASE + 0x04))
+#define PINTSEL_2        (*(volatile uint32_t *)(PINTSEL_BASE + 0x08))
+#define PINTSEL_3        (*(volatile uint32_t *)(PINTSEL_BASE + 0x0C))
+#define PINTSEL_4        (*(volatile uint32_t *)(PINTSEL_BASE + 0x10))
+#define PINTSEL_5        (*(volatile uint32_t *)(PINTSEL_BASE + 0x14))
+#define PINTSEL_6        (*(volatile uint32_t *)(PINTSEL_BASE + 0x18))
+#define PINTSEL_7        (*(volatile uint32_t *)(PINTSEL_BASE + 0x1C))
 
 // ISEL - Selecciona si la interrupcion es por flanco o nivel
 #define ISEL_BASE        (0xA0004000)
@@ -299,7 +299,7 @@ typedef struct {
 
 // ENAF - Habilita o deshabilita el Falling Edge
 #define ENAF_BASE        (0xA0004010)
-#define ENRL             (*(volatile uint32_t *)ENAF_BASE)
+#define ENAF             (*(volatile uint32_t *)ENAF_BASE)
 
 // RISE - Pone flag en 1 si detecta un rising edge
 #define RISE_BASE        (0XA000401C)

@@ -1,0 +1,4 @@
+../Drivers/swm.c:4:6:swm_power_on	8	static
+../Drivers/swm.c:8:6:swm_power_off	8	static
+../Drivers/swm.c:12:6:swm_select_usart0_txd	16	static
+../Drivers/swm.c:18:6:swm_select_usart0_rxd	16	static

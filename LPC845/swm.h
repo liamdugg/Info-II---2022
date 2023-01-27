@@ -1,6 +1,10 @@
 #ifndef SWM_H_
 #define SWM_H_
 
+#define		SWM_PINASSIGN0				(*((volatile uint32_t *)(0x4000C000)))
+#define		SWM_PINENABLE0				(*((volatile uint32_t *)(0x4000C1C0)))
+#define		SYSCON_SYSAHBCLKCTRL0		(*((volatile uint32_t *)(0x40048080)))
+
 #include <stdint.h>
 
 void swm_power_on(void);

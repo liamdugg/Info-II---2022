@@ -1,0 +1,10 @@
+../src/AP_FuncionesMDE.c:26:5:s_SetTemp	16	static
+../src/AP_FuncionesMDE.c:35:6:m_Prender_Alarma	8	static
+../src/AP_FuncionesMDE.c:41:6:m_Apagar_Alarma	8	static
+../src/AP_FuncionesMDE.c:46:6:m_Enviar_Trama_Temp	8	static
+../src/AP_FuncionesMDE.c:54:9:parseo_temp	32	static
+../src/AP_FuncionesMDE.c:73:6:m_Enviar_Trama_Temp_sens	24	static
+../src/AP_FuncionesMDE.c:100:6:f_Enviar_trama_set	32	static
+../src/AP_FuncionesMDE.c:131:6:f_Enviar_trama_set_sens	32	static
+../src/AP_FuncionesMDE.c:163:6:m_Iniciar_timer	8	static
+../src/AP_FuncionesMDE.c:168:6:SysTick_Handler	8	static

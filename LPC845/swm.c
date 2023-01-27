@@ -1,10 +1,6 @@
 #include <swm.h>
 #include "Regs_LPC845.h"
 
-#define		SWM_PINASSIGN0				(*((volatile uint32_t *)(0x4000C000)))
-
-#define		SYSCON_SYSAHBCLKCTRL0		(*((volatile uint32_t *)(0x40048080)))
-
 void swm_power_on(void) {
 	SYSCON -> SYSAHBCLKCTRL0 |= (1 << 7);
 }
