@@ -1,3 +1,0 @@
-leds.c:12:6:Initialize	8	static
-leds.c:27:6:SET_LED	16	static
-leds.c:50:6:CLEAR_LED	16	static
