@@ -21,7 +21,10 @@
 #define     START_TX                    (USART0->INTENSET = (1 << 2))
 
 void pushTx (uint8_t dato);
-uint16_t popTx(void);
-uint16_t popTx(void);
+int16_t popTx(void);
+
+void pushRx(uint8_t);
+int16_t popRx(void);
+
 int16_t Transmitir (const void * datos , uint8_t cant);
 void UART_Init(void);

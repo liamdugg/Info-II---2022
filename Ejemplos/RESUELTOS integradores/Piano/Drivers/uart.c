@@ -58,28 +58,30 @@ void pushRx(uint8_t dato)
     inx_rx_in % RXBUFFER_SIZE;
 }
 
-int16_t popRx (void) {
-       int16_t dato = -1;
-      if (inx_rx_in != inx_rx_out )
-      {
-            dato = BufferRx[inx_rx_out ] ;
-            inx_rx_out ++;
-            inx_rx_out  %= RXBUFFER_SIZE;
-      }
-      return dato;
+int16_t popRx(void) {
+
+	int16_t dato = -1;
+	if (inx_rx_in != inx_rx_out )
+	{
+		dato = BufferRx[inx_rx_out ] ;
+		inx_rx_out ++;
+		inx_rx_out  %= RXBUFFER_SIZE;
+	}
+	return dato;
 }
 
 void UART0_IRQHandler (void)  
 {
-      int16_t auxTemporal;
+    int16_t auxTemporal;
 
-      uint32_t stat = USART0->STAT;
+    uint32_t stat = USART0->STAT;
 	
 	if(stat & (1 << 0))
     {
 		auxTemporal = (int32_t) USART0->RXDAT;    
 		pushRx((uint8_t) auxTemporal);         
 	}
+
 	if(stat & (1 << 2))
     {
 		auxTemporal = popTx(); 
