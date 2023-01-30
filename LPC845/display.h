@@ -1,3 +1,5 @@
+#include "Regs_LPC845.h"
+
 #define		BCD_A		0,20
 #define		BCD_B		0,23
 #define		BCD_C		0,22

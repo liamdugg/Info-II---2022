@@ -57,7 +57,7 @@ void Barrido_Display(void)
     digito %= CANTIDAD_DIGITOS;
 }
 
-void Display(uint32_t Dato)
+void Display(uint32_t Dato) //103327
 {
 	uint32_t i;
 

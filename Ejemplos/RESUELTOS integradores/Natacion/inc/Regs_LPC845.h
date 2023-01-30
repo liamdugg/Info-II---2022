@@ -294,15 +294,19 @@ typedef struct {
 #define ISEL             (*(volatile uint32_t *)PINTSEL_BASE)
 
 // ENRL - Habilita o deshabilita el Rising Edge
-#define ENRL_BASE        (0xA0004004)
-#define ENRL             (*(volatile uint32_t *)ENRL_BASE)
+#define IENR_BASE        (0xA0004004)
+#define IENR             (*(volatile uint32_t *)IENR_BASE)
 
 // ENAF - Habilita o deshabilita el Falling Edge
-#define ENAF_BASE        (0xA0004010)
-#define ENAF             (*(volatile uint32_t *)ENAF_BASE)
+#define IENF_BASE        (0xA0004010)
+#define IENF             (*(volatile uint32_t *)IENF_BASE)
 
 // RISE - Pone flag en 1 si detecta un rising edge
 #define RISE_BASE        (0XA000401C)
-#define RISE             (*(volatile uint32_t *)RISE)
+#define RISE             (*(volatile uint32_t *)RISE_BASE)
+
+// FALL - Pone flag en 1 si detecta un falling edge
+#define FALL_BASE        (0XA0004020)
+#define FALL             (*(volatile uint32_t *)FALL_BASE)
 
 #endif /* LPC845_H_ */

@@ -1,22 +1,4 @@
 #include "uart.h"
-#include "swm.h"
-#include "Regs_LPC845.h"
-
-/** USART - Register Layout Typedef */
-typedef struct {
-  __IO uint32_t CFG;       
-  __IO uint32_t CTL;      
-  __IO uint32_t STAT;      
-  __IO uint32_t INTENSET;  
-  __O  uint32_t INTENCLR;  
-  __I  uint32_t RXDAT;    
-  __I  uint32_t RXDATSTAT;  
-  __IO uint32_t TXDAT;   
-  __IO uint32_t BRG;     
-  __I  uint32_t INTSTAT;   
-  __IO uint32_t OSR;    
-  __IO uint32_t ADDR;   
-} USART_Type;
 
 static volatile uint8_t BufferRx[RXBUFFER_SIZE];
 static volatile uint32_t inx_rx_in = 0;

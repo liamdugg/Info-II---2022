@@ -12,6 +12,9 @@
 /************************************************************************************************************
  *** INCLUDES GLOBALES
  ************************************************************************************************************/
+#include "AP_Inicializacion.h"
+
+
 
 /************************************************************************************************************
  *** DEFINES GLOBALES
@@ -33,14 +36,16 @@
 
 
 /*-------------------------------------------- ACCIONES ----------------------------------------------------*/
-
-void f_Deneter_Timer ( void );
+uint8_t Inicio(void);
+uint8_t llegada(void);
+void f_Deneter_Timer ( uint8_t nadador );
 void f_Display_Corredor ( void );
-void f_Envio_trama ( void );
+void f_Envio_trama ( int nadador );
 void f_Iniciar_Display_Carrera ( void );
 void f_Iniciar_Timer_2s ( void );
 void f_Iniciar_Timers ( void );
-void f_Pausar_sistema ( void );
+
+uint32_t parseo_tiempo(int nadador);
 
 /*------------------------------------------TEMPORIZADORES -------------------------------------------------*/
 

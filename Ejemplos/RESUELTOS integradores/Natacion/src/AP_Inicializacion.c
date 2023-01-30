@@ -31,9 +31,7 @@ static void Inicializar_Display_nadando( void ) ;
 static void Inicializar_Pileta( void )
 {
     //!< Coloque aqui su codigo
-	Inicio = 0 ;
 	Pulsador = 0 ;
-	llegada = 0 ;
 	fin_carrera = 0 ;
 
     return ;
@@ -138,7 +136,20 @@ static void Init_UART()
 	ISER0 |= (1 << 3);
 }
 
+static void Init_EXINT(void)
+{
+	SYSCON->SYSAHBCLKCTRL0 |= (1<<28);
 
+	ISER0 |= (1<<27);
+
+	PINTSEL_0 &= ~(0x3F); //P0.0
+
+	ISEL &= ~(0xFF); // por flanco
+
+	IENF &= ~(0xFF);
+	IENF |= (1<3);
+
+}
 
 void Inicializar( void )
 {
@@ -152,6 +163,8 @@ void Inicializar( void )
 	Init_Gpio();
 	Init_Display();
 	Init_Systick();
+	Init_UART();
+	Init_EXINT();
 	
     return ;
 }

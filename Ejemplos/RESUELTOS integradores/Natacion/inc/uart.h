@@ -1,4 +1,23 @@
-#include <stdint.h>
+#include "Regs_LPC845.h"
+#include "swm.h"
+#include <string.h>
+
+/** USART - Register Layout Typedef */
+typedef struct {
+  __IO uint32_t CFG;
+  __IO uint32_t CTL;
+  __IO uint32_t STAT;
+  __IO uint32_t INTENSET;
+  __O  uint32_t INTENCLR;
+  __I  uint32_t RXDAT;
+  __I  uint32_t RXDATSTAT;
+  __IO uint32_t TXDAT;
+  __IO uint32_t BRG;
+  __I  uint32_t INTSTAT;
+  __IO uint32_t OSR;
+  __IO uint32_t ADDR;
+} USART_Type;
+
 
 #define USART0_BASE            (0x40064000u)
 /** Peripheral USART0 base pointer */

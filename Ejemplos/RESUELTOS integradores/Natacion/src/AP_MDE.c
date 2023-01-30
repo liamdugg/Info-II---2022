@@ -19,9 +19,13 @@
 #define		ESPERANDO		1	// < Maquina: Pileta >
 #define		CARRERA		2	// < Maquina: Pileta >
 
+#define 	NADADORES		5
+
 //Maquina: Display_nadando
 #define		ESPERANDO		1	// < Maquina: Display_nadando >
 #define		DISPLAY_ON		2	// < Maquina: Display_nadando >
+
+
 
 /************************************************************************************************************
  *** MACROS PRIVADAS AL MODULO
@@ -36,12 +40,13 @@ static int Display_nadando ( int );
 /************************************************************************************************************
  *** VARIABLES GLOBALES PUBLICAS
  ************************************************************************************************************/
-int Inicio ;		//
 int Pulsador ;		//
 int Display_Carrera ;		//
 int Timer_2s ;		//
-int llegada ;		//
+uint8_t tecla;
 int fin_carrera ;		//
+
+int tiempo_carrera;
 
 /************************************************************************************************************
  *** FUNCIONES PRIVADAS AL MODULO
@@ -69,9 +74,9 @@ static int Pileta ( int  Estado )
             break;
 
         case ESPERANDO :
-            if ( Inicio == 1 )
+            if (Inicio() && Pulsador == 0)
             {
-                f_Iniciar_Timers();
+                tiempo_carrera = 1;
                 Display_Carrera = 1;
 
                 Estado = CARRERA;
@@ -82,23 +87,19 @@ static int Pileta ( int  Estado )
         case CARRERA :
             if ( Pulsador == 1 )
             {
-                f_Pausar_sistema();
-
                 Estado = ESPERANDO;
             }
 
-            if ( llegada == 1 )
+            if ((tecla = llegada()) != NO_KEY && fin_carrera < NADADORES)
             {
-                llegada = 0;
-                f_Envio_trama();
-                f_Deneter_Timer();
-
+                f_Deneter_Timer(tecla);
+                f_Envio_trama(tecla);
+                fin_carrera++;
                 Estado = CARRERA;
             }
 
-            if ( fin_carrera == 1 )
+            if ( fin_carrera == NADADORES )
             {
-
                 Estado = ESPERANDO;
             }
 
@@ -134,7 +135,7 @@ static int Display_nadando ( int  Estado )
             break;
 
         case ESPERANDO :
-            if ( Display_Carrera == 1 )
+            if ( Display_Carrera == 1 && Pulsador == 0)
             {
                 f_Display_Corredor();
                 f_Iniciar_Timer_2s();
@@ -155,8 +156,6 @@ static int Display_nadando ( int  Estado )
 
             if ( Pulsador == 1 )
             {
-                f_Pausar_sistema();
-
                 Estado = ESPERANDO;
             }
 
