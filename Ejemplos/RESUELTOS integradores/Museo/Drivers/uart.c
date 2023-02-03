@@ -85,7 +85,7 @@ int16_t Transmitir (const void * datos , uint8_t cant)
 
 	for ( i = 0 ; i < cant ; i++ ){
 		pushTx( * ( ( uint8_t * ) ( datos + i ) ) );
-    }
+	}
 }
 
 void UART_Init(void) {
