@@ -11,13 +11,15 @@ static volatile uint32_t inx_tx_out = 0;
 int txStart;
 
 void pushTx (uint8_t dato) {
-      BufferTx [inx_tx_in] = dato;
-      inx_tx_in++;
-       inx_tx_in %= TXBUFFER_SIZE;
-       if (txStart == 0) {  
-              txStart = 1;	
-             START_TX;
-       }
+    
+    BufferTx [inx_tx_in] = dato;
+    inx_tx_in++;
+    inx_tx_in %= TXBUFFER_SIZE;
+    
+    if (txStart == 0) {  
+        txStart = 1;	
+        START_TX;
+    }
 }
 
 int16_t popTx(void)
@@ -30,6 +32,7 @@ int16_t popTx(void)
         inx_tx_out ++;
         inx_tx_out  %= TXBUFFER_SIZE;
     }
+
     return dato;
 }
 
@@ -54,7 +57,6 @@ int16_t popRx (void) {
 void UART0_IRQHandler (void)  
 {
       int16_t auxTemporal;
-
       uint32_t stat = USART0->STAT;
 	
 	if(stat & (1 << 0))
@@ -62,6 +64,7 @@ void UART0_IRQHandler (void)
 		auxTemporal = (int32_t) USART0->RXDAT;    
 		pushRx((uint8_t) auxTemporal);         
 	}
+
 	if(stat & (1 << 2))
     {
 		auxTemporal = popTx(); 

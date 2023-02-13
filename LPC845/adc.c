@@ -10,7 +10,7 @@ void ADC_Init(void)
     // Energizo el ADC
     SYSCON->PDRUNCFG &= ~(1<<4);
 
-    // Habilito el Cloclk para el ADC
+    // Habilito el Clock para el ADC
     SYSCON->SYSAHBCLKCTRL0 |= (1<<24);
 
     // Habilito el Cloclk para la SWM

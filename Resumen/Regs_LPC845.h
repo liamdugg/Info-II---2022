@@ -312,5 +312,4 @@ typedef struct {
 #define IST_BASE         (0xA0004024)
 #define IST              (*(volatile uint32_t *)IST_BASE)
 
-
 #endif /* LPC845_H_ */
