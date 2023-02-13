@@ -1,0 +1,3 @@
+../src/AP_Inicializacion.c:18:13:Inicializar_Sensor	8	static
+../src/AP_Inicializacion.c:30:13:init_PWM	8	static
+../src/AP_Inicializacion.c:45:6:Inicializar	8	static

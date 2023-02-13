@@ -1,0 +1,7 @@
+../Drivers/uart.c:13:6:pushTx	16	static
+../Drivers/uart.c:23:9:popTx	16	static
+../Drivers/uart.c:36:6:pushRx	16	static
+../Drivers/uart.c:43:9:popRx	16	static
+../Drivers/uart.c:54:6:UART0_IRQHandler	24	static
+../Drivers/uart.c:78:9:Transmitir	32	static
+../Drivers/uart.c:91:6:UART_Init	8	static

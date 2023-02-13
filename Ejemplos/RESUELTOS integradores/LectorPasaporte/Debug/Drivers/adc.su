@@ -1,0 +1,2 @@
+../Drivers/adc.c:8:6:ADC_Init	8	static
+../Drivers/adc.c:52:6:Start_ADC	8	static

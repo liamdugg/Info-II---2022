@@ -1,0 +1,3 @@
+../src/AP_MDE.c:54:12:Sensor	16	static
+../src/AP_MDE.c:120:12:Analisis_Trama	16	static
+../src/AP_MDE.c:210:6:MaquinaDeEstados	8	static

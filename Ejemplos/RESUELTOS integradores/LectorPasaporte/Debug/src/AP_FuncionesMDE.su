@@ -1,0 +1,11 @@
+../src/AP_FuncionesMDE.c:38:6:f_ApagarLedRojo	8	static
+../src/AP_FuncionesMDE.c:47:6:f_Enviar_trama	8	static
+../src/AP_FuncionesMDE.c:59:6:f_Iniciar_Timer	16	static
+../src/AP_FuncionesMDE.c:66:6:f_Apagar_Timer	8	static
+../src/AP_FuncionesMDE.c:72:6:set_intensidad	16	static
+../src/AP_FuncionesMDE.c:82:6:f_LuzDimmer_ON	8	static
+../src/AP_FuncionesMDE.c:90:6:f_PrenderLedRojo	8	static
+../src/AP_FuncionesMDE.c:98:6:f_luzDimmer_OFF	8	static
+../src/AP_FuncionesMDE.c:104:9:checksum	32	static
+../src/AP_FuncionesMDE.c:116:6:ADC_SEQA_IRQHandler	8	static
+../src/AP_FuncionesMDE.c:121:6:SysTick_Handler	8	static
